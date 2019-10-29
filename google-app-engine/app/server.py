@@ -8,7 +8,7 @@ from io import BytesIO
 from fastai import *
 from fastai.vision import *
 
-model_file_url = 'predownload'
+model_file_url = 'https://www.dropbox.com/s/cbckc70gubbj2m4/Final%20Good%20Model-50%20epochs.pth?raw=1'
 model_file_name = 'model'
 classes = ['Calls', 'Mastication', 'Nothing']
 path = Path(__file__).parent
